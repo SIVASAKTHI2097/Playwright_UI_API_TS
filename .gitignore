@@ -1,0 +1,39 @@
+# Node
+node_modules/
+
+# Playwright reports & results
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+screenshots/
+videos/
+traces/
+
+# Environment files (secrets)
+.env
+.env.*
+
+# Test data generated at runtime
+test-data/*.json
+test-data/dynamic-data/*.json
+
+# Build output
+dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode
+
+# Logs
+npm-debug.log*
+
+
+# Cache
+.cache
+downloads/
+
+# Dependency files
+package-lock.json
+package.json

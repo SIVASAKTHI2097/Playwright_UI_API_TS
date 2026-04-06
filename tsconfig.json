@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "NodeNext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "checkJs": false,
+        "strict": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "types": ["node", "playwright/test"],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "@pages/*": ["pages/*"],
+            "@fixtures/*": ["fixtures/*"],
+            "@utils/*": ["utils/*"],
+            "@test-data/*": ["test-Data/*"],
+            "@apiUtils/*": ["utils/api-utils/*"],
+            "@storedataUtils/*": ["utils/data-store-utils/*"],
+            "@datautils/*": ["utils/data-utils/*"]
+        }
+    },
+    "include": ["**/*.ts", "eslint.config.js"],
+    "exclude": ["node_modules", "dist", "playwright-report", "test-results", "allure-results"]
+}

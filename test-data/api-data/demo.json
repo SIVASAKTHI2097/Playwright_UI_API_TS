@@ -1,0 +1,25 @@
+{
+    "purchaseOrder": {
+        "header": {
+            "dataAreaId": "242",
+            "OrderVendorAccountNumber": "242V0000001",
+            "RequestedDeliveryDate": "2026-03-21",
+            "VendorOrderReference": "Scm",
+            "DefaultReceivingWarehouseId": "UKD2C01",
+            "DefaultReceivingSiteId": "UK",
+            "DMRIntegrationReference": "51270981"
+        },
+        "lines": [
+            {
+                "dataAreaId": "242",
+                "ReceivingSiteId": "UK",
+                "ProductSizeId": "030",
+                "OrderedPurchaseQuantity": 110,
+                "ReceivingWarehouseId": "UKD2C01",
+                "HDMIntExFactoryDate": "2026-03-21",
+                "DMRIntegrationReference": "line1",
+                "ItemNumber": "43032001"
+            }
+        ]
+    }
+}
