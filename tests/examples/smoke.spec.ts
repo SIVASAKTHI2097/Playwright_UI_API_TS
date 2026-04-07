@@ -1,5 +1,5 @@
 import { test } from '@fixtures/common/common.ui.api.fixture';
-test.describe('D365 SMOKE TEST', () => {
+test.describe('SMOKE TEST', () => {
     test.use({ sheetName: 'Smoke' });
     test(
         `Login And Logout`,
