@@ -8,7 +8,7 @@ test.describe('SMOKE TEST', () => {
             annotation: [{ type: 'TC', description: 'Smoke1' }],
         },
         async () => {
-            console.log(`Just checking whether able to login and logout into D365`);
+            console.log(`Just checking whether able to login and logout`);
         }
     );
 });
